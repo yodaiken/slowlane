@@ -7,7 +7,7 @@
   var IMG_TIMEOUT = 10000;
   var PAGE_TIMEOUT = 8000;
   var LOADING_IMG = "";
-  var PAGE_LOADING_IMG = "http://www.fluendo.com/media/images/loading_gif.gif";
+  var PAGE_LOADING_IMG = "http://www.aaronyodaiken.com/slowlane/loading_gif.gif";
   var PAGE_LOADING_TEXT = "We are artifically slowing down your visit to this site to protest the FCC’s failure to protect network neutrality. <a href='#TODO' target='_blank'>Learn more here</a>";
   window.slowlane = function slowlane(opts) {
     if (opts.images === undefined) {
