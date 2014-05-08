@@ -1,5 +1,5 @@
 (function($, window, undefined) {
-  if (jQuery === undefined) {
+  if ($ === undefined) {
     console.log('Include jQuery for slowlane.js to work!');
     window.slowlane = function donothing(){};
     return;
